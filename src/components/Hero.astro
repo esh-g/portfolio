@@ -1,0 +1,23 @@
+---
+import Avatar from "../assets/avatar.png";
+import Ball from "../assets/ball.svg";
+import Dots from "../assets/dots.svg";
+---
+
+<main class="flex flex-col-reverse md:flex-row w-full md:h-[80vmin] lg:max-h-[100vh] gap-12 md:gap-0 overflow-x-hidden">
+  <div class="avatar w-full md:w-1/2 relative p-8 md:p-0 h-full bg-opacity-75 bg-blu md:bg-inherit flex md:block items-center justify-center">
+    <div class="h-full w-6/12 bg-opacity-100 bg-blu absolute hidden md:block" />
+    <img data-blobity data-blobity-color="rgb(255, 255, 255)" src={Avatar} class="aspect-auto w-64 md:w-[55%] lg:w-[45%] rounded-2xl static md:absolute md:ml-[25%] md:mt-[30%] lg:mt-[16%]" />
+  </div>
+  <div class="desc w-full md:w-1/2 flex flex-row pt-8 md:pt-16 px-4 md:pl-0">
+    <div class="w-[98%]">
+      <div class="bg-tan font-raleway select-none rounded-full px-9 py-3 inline-block text-2xl" data-blobity data-blobity-radius="1200">✌️ Hey there, I&apos;m</div>
+      <br />
+      <h1 data-blobity class="text-7xl select-none inline-block md:text-[8vw] leading-none font-raleway mt-6" >Esh <br class="hidden md:block" /> Gupta</h1>
+      <p class="text-3xl md:text-[3vw] mt-12 font-raleway font-medium leading-tight pr-9" >I design and build <br class="hidden lg:block" /> web & mobile apps.</p>
+    </div>
+    <div class="absolute right-0 hidden mt-[5%] md:block">
+      <img src={Dots} class="aspect-square w-36 xl:w-60 " />
+    </div>
+  </div>
+</main>

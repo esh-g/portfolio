@@ -9,7 +9,12 @@
 		"preview": "astro preview",
 		"astro": "astro"
 	},
+	"license": "MIT",
 	"dependencies": {
-		"astro": "^2.0.15"
+		"@astrojs/tailwind": "^3.0.1",
+		"@fontsource/raleway": "^4.5.12",
+		"astro": "^2.0.4",
+		"blobity": "^0.2.3",
+		"tailwindcss": "^3.0.24"
 	}
 }

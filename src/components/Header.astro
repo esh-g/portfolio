@@ -1,0 +1,18 @@
+---
+import burgerMenu from "../assets/burger-menu.svg";
+---
+
+<header class="px-[5%] flex flex-row justify-between w-full h-24 items-center">
+  <div class="flex flex-row">
+    <a href="/" class="font-raleway font-semibold text-5xl md:7xl p-2">esh.</a>
+    <nav class="sm:flex justify-evenly w-[60vw] md:w-[40vw] items-center hidden">
+      <a class="text-2xl h-12 w-28 flex items-center justify-center" href="/about">About</a>
+      <a class="text-2xl h-12 w-28 flex items-center justify-center" href="/blog">Blog</a>
+      <a class="text-2xl h-12 w-28 flex items-center justify-center" href="/projects">Projects</a>
+    </nav>
+  </div>
+  <nav class="sm:hidden">
+    <img src={burgerMenu} class="h-24 aspect-square" />
+  </nav>
+  <button class="rounded-3xl hidden md:block hover:rounded-xl hover:brightness-95 transition-all duration-500 bg-green pt-4 pb-4 pl-9 pr-9 text-2xl">Contact Me</button>
+</header>
